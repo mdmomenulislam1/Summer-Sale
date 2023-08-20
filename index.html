@@ -13,6 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/368b45373e.js" crossorigin="anonymous"></script>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -20,16 +21,18 @@
             font-family: 'Work Sans', sans-serif;
         }
     </style>
+
+
 </head>
 
 <!-- This is body section  -->
 
-<body>
+<body id="bb">
 
     <!-- This is Header section  -->
     <header>
-        <section class="h-[700px] bg-yellow-50">
-            <div class="hero min-h-screen">
+        <section class="h-[450px] bg-yellow-50">
+            <div class="hero">
                 <div class="hero-content grid grid-cols-1 lg:grid-cols-2">
 
                     <div class="text-center mr-10">
@@ -40,7 +43,7 @@
                                 class="btn bg-[#E527B2] text-white ml-3">SELL200</button></p>
                     </div>
                     <div>
-                        <img src="/images/Summer 1.png" class="rounded-lg text-center w-[400px] lg:w-full" />
+                        <img src="/images/Summer 1.png" class="rounded-lg text-center w-[400px]" />
                     </div>
 
                 </div>
@@ -51,7 +54,7 @@
     <!-- This is main section  -->
     <main class=" p-20 bg-gray-50">
         <h1 class="text-4xl font-extrabold">Kitchenware</h1>
-        <div class="flex flex-col lg:flex-row gap-5 justify-between mt-3">
+        <div class="flex flex-col lg:flex-row gap-10 justify-between mt-3">
 
 
             <!-- This is Kitchenware section  -->
@@ -59,8 +62,10 @@
 
 
                 <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-3 justify-around">
+
+
                     <!-- Card 1 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod1.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -70,12 +75,12 @@
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">K. Accessories</h2>
-                            <p onclick="clickPriceItem(this)">39.00 TK</p>
+                            <p>39.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod2.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -85,12 +90,12 @@
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">K. Accessories</h2>
-                            <p onclick="clickPriceItem(this)">25.00 TK</p>
+                            <p>25.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod3.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -100,7 +105,7 @@
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Home Cooker</h2>
-                            <p onclick="clickPriceItem(this)">49.00 TK</p>
+                            <p>49.00 TK</p>
                         </div>
                     </div>
 
@@ -111,8 +116,10 @@
                 <!-- Sportswear -->
                 <h1 class="mt-16 text-4xl font-extrabold">Sportswear</h1>
                 <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-3 justify-around">
+
+
                     <!-- Card 1 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod4.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -122,12 +129,12 @@
                                     class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Sports Back Cap</h2>
-                            <p onclick="clickPriceItem(this)">49.00 TK</p>
+                            <p>49.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod5.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -137,12 +144,12 @@
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Full Jersey Set</h2>
-                            <p onclick="clickPriceItem(this)">69.00 TK</p>
+                            <p>69.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod6.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -152,7 +159,7 @@
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Sports cates</h2>
-                            <p onclick="clickPriceItem(this)">159.00 TK</p>
+                            <p>159.00 TK</p>
                         </div>
                     </div>
                 </div>
@@ -160,8 +167,10 @@
                 <!-- Furniture -->
                 <h1 class="mt-16 text-4xl font-extrabold">Furniture</h1>
                 <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-3 justify-around">
+
+
                     <!-- Card 1 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod7.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -171,12 +180,12 @@
                                     class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Single Relax Chair</h2>
-                            <p onclick="clickPriceItem(this)">185.00 TK</p>
+                            <p>185.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod8.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -186,12 +195,12 @@
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
                                     class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Children play</h2>
-                            <p onclick="clickPriceItem(this)">299.00 TK</p>
+                            <p>299.00 TK</p>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="card w-80 bg-base-100 shadow-xl">
+                    <div onclick="clickPriceItem(this)" class="card w-80 bg-base-100 shadow-xl">
                         <div class="p-3">
                             <img src="/images/prod9.png" alt=""
                                 class=" text-center bg-gray-300 m-auto rounded-xl w-full h-[300px]">
@@ -201,7 +210,7 @@
                                     class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                     class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
                             <h2 class="card-title">Flexible Sofa</h2>
-                            <p onclick="clickPriceItem(this)">339.00 TK</p>
+                            <p>339.00 TK</p>
                         </div>
                     </div>
                 </div>
@@ -209,50 +218,76 @@
             <section class="mt-3 w-[350px]">
                 <div class="bg-white p-4 rounded-xl">
                     <h2 class="text-2xl font-bold">Have coupon?</h2>
-                    <input type="text" placeholder="Coupon code"
+                    <input id="coupon-area" type="text" placeholder="Coupon code"
                         class="border-2 border-black rounded-md text-black p-2 mt-2 ">
                     <button id="coupon-btn" class="btn bg-[#E527B2] text-white" disabled> Apply </button>
                 </div>
                 <div class="bg-white p-4 rounded-xl mt-4">
                     <div class="mt-3 ">
-                        <h3 class="font-bold text-3xl text-center">Cart Details</h3>
+                        <h3 class="font-bold text-2xl text-center">Cart Details</h3>
                         <ol id="item-name" class="font-bold" type="1">
 
                         </ol>
                     </div>
-                    <hr class="my-2">
-                    <h3 class="font-bold my-2">Total Price: <span id="total-price"></span>$</h3>
-                    <h3 class="font-bold my-2">Total Discount: <span id="discount"></span>$</h3>
-                    <h3 class="font-bold my-2">Total: <span id="net-total"></span>$</h3>
+                    <hr class="my-5">
+                    <h3 class="font-bold my-2">Total Price: <span id="total-price"></span> $</h3>
+                    <h3 class="font-bold my-2">Total Discount: <span id="discount"></span> $</h3>
+                    <h3 class="font-bold my-2">Net Total: <span id="net-total"></span> $</h3>
                     <hr class="my-2">
 
                 </div>
                 <div class="text-center mt-[-10px]">
+
+
+
+
+
+                    <!-- Open the modal using ID.showModal() method -->
+                    <button id="payment-btn" class="btn bg-[#E527B2] text-white w-3/4" onclick="my_modal_1.showModal()" disabled>Make Purchase</button>
+                    <dialog id="my_modal_1" class="modal text-center">
+                        <form method="dialog" class="modal-box">
+                            <div class="ml-36 m-auto text-center">
+                                <img src="/images/congo.png" alt="" class="">
+                            </div>
+                            <h3 class="font-bold text-lg">Congratulations!</h3>
+                            <p class="py-4">Your Purchase the product</p>
+                            <div class="modal-action">
+                                <!-- if there is a button in form, it will close the modal -->
+                                <button id="reset-btn" class="btn mr-16 bg-[#E527B2] text-white w-3/4">Go Home</button>
+                            </div>
+                        </form>
+                    </dialog>
+
+
+
+
+
                     <!-- The button to open modal -->
-                    <a href="#my_modal_8"><button id="payment-btn" class="btn bg-[#E527B2] text-white w-3/4" disabled>Make Purchase</button></a>
+                    <!-- <a href="#my_modal_8"><button  class="btn bg-[#E527B2] text-white w-3/4"
+                            disabled>Make Purchase</button></a>
 
                     <div class="modal" id="my_modal_8">
                         <div class="modal-box">
                             <div class="ml-36 m-auto text-center">
                                 <img src="/images/congo.png" alt="" class="">
                             </div>
-                            
+
                             <h3 class="font-bold text-lg">Congratulations!</h3>
                             <p class="py-4">Your Purchase the product</p>
                             <div class="modal-action text-center">
-                                <a onclick="goHomeClick()" href="#" class="btn mr-16 bg-[#E527B2] text-white w-3/4">Go Home</a>
+                                <button id="myModal" class="btn mr-16 bg-[#E527B2] text-white w-3/4">Go
+                                    Home</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </div>
     </main>
 
-    <!-- This is footer section  -->
-    <footer>
-    </footer>
+
 
     <script src="index.js"></script>
 </body>
+
 </html>
