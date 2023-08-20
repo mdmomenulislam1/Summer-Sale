@@ -7,8 +7,6 @@ const applyCoupon = document.getElementById('coupon-btn');
 const productName = document.getElementById('item-name');
 const reSetBtn = document.getElementById('reset-btn');
 
-
-
 function clickPriceItem(tar) {
     const itemName = tar.children[1].children[1].innerText;
     const count = productName.childElementCount;
